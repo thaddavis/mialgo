@@ -91,7 +91,7 @@ export default function MainUI(props) {
           </Button>
         </ButtonGroup>
 
-        {mode === "talent" ? <LookingTable /> : <HiringTable />}
+        {mode === "opportunities" ? <LookingTable /> : <HiringTable />}
       </Container>
 
       {selectedChatroom && chatroomData && (

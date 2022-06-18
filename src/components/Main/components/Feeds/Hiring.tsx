@@ -16,11 +16,13 @@ export function HiringTable() {
           }}
         >
           <Card style={{ width: "33vw" }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card.Img variant="top" src={i.image} />
             <Card.Body>
               <Card.Title>{i.name}</Card.Title>
               <Card.Text>{i.description}</Card.Text>
-              <Button variant="primary">{}</Button>
+              <Button variant="primary">
+                <a href={i.link}></a>
+              </Button>
             </Card.Body>
           </Card>
         </div>
