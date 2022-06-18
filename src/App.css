@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Encode Sans Expanded', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  /* mobile viewport bug fix */
+  min-height: -webkit-fill-available;
+}
+
+html {
+  height: -webkit-fill-available;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.Toastify__toast--success {
+  /* background-color: rgba(10, 201, 122, 1) */
+}
+
+.Toastify__toast-body {
+  text-align: center;
+}
+
+.btn-secondary {
+  color: black;
+  background-color: white;
+  border-color: rgba(100, 33, 141, 1);
+}
+
+.btn-secondary:hover {
+  backgroung-color: rgba(189, 75, 144, 1);
+}

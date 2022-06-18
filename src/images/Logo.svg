@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="210px" height="210px" viewBox="0 0 210 210" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <defs>
+        <linearGradient x1="-9.36750677e-15%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#C54E90" offset="0%"></stop>
+            <stop stop-color="#712783" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Mialgo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <circle id="Oval-1" fill="url(#linearGradient-1)" cx="105" cy="105" r="105"></circle>
+            <circle id="Oval-2" stroke="#FFFFFF" stroke-width="12" cx="105.5" cy="104.5" r="91.5"></circle>
+            <circle id="Oval-3" stroke="#FFFFFF" stroke-width="7" cx="105" cy="105" r="75.5"></circle>
+            <rect id="Rectangle" stroke="#FFFFFF" stroke-width="8" transform="translate(105.500000, 104.964466) rotate(45.000000) translate(-105.500000, -104.964466) " x="64.5" y="63.9644661" width="82" height="82"></rect>
+            <text id="M" font-family="Phosphate-Inline, Phosphate" font-size="51" font-weight="normal" fill="#FFFFFF">
+                <tspan x="85.3905" y="122">M</tspan>
+            </text>
+            <g id="Group-2" transform="translate(30.000000, 29.000000)" fill="#FFFFFF">
+                <rect id="Rectangle" transform="translate(6.717514, 86.717514) scale(-1, 1) rotate(-45.000000) translate(-6.717514, -86.717514) " x="3.21751442" y="80.7175144" width="7" height="12"></rect>
+                <rect id="Rectangle" transform="translate(143.717514, 86.717514) scale(-1, -1) rotate(-45.000000) translate(-143.717514, -86.717514) " x="140.217514" y="80.7175144" width="7" height="12"></rect>
+                <rect id="Rectangle" transform="translate(64.717514, 144.717514) scale(1, -1) rotate(-45.000000) translate(-64.717514, -144.717514) " x="61.2175144" y="138.717514" width="7" height="12"></rect>
+                <rect id="Rectangle" transform="translate(85.717514, 144.717514) scale(-1, -1) rotate(-45.000000) translate(-85.717514, -144.717514) " x="82.2175144" y="138.717514" width="7" height="12"></rect>
+                <rect id="Rectangle" transform="translate(85.717514, 7.717514) scale(-1, 1) rotate(-45.000000) translate(-85.717514, -7.717514) " x="82.2175144" y="1.71751442" width="7" height="12"></rect>
+                <rect id="Rectangle" transform="translate(143.717514, 65.717514) scale(-1, 1) rotate(-45.000000) translate(-143.717514, -65.717514) " x="140.217514" y="59.7175144" width="7" height="12"></rect>
+                <rect id="Rectangle" transform="translate(6.717514, 65.717514) scale(-1, -1) rotate(-45.000000) translate(-6.717514, -65.717514) " x="3.21751442" y="59.7175144" width="7" height="12"></rect>
+                <rect id="Rectangle" transform="translate(65.717514, 6.717514) rotate(-45.000000) translate(-65.717514, -6.717514) " x="62.2175144" y="0.717514421" width="7" height="12"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
