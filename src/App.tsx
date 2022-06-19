@@ -6,7 +6,7 @@ import React from "react";
 
 import { ThemeProvider } from "styled-components";
 import { ToastContainer } from "react-toastify";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 import { theme as chinaTheme } from "./styles/themes/main";
 
@@ -18,7 +18,7 @@ import GetMialgoStacks from "./components/Main/GetMialgoStacks";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <ThemeProvider theme={chinaTheme}>
         <Routes>
           <Route index={true} element={<Home />}></Route>
@@ -29,7 +29,7 @@ function App() {
         </Routes>
       </ThemeProvider>
       <ToastContainer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

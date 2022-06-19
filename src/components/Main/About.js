@@ -38,7 +38,7 @@ export default function About(props) {
             }}
           >
             Mialgo's first venture was to aggregate all the job opportunities
-            that were represented at the Miami for Everyone tech event.
+            that were represented at the "Miami for Everyone" tech event.
           </p>
         </div>
       </Container>

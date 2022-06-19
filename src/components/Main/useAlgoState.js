@@ -10,7 +10,6 @@ const useDimeAlgo = (socket) => {
   const [mainUIState, setMainUIState] = useState({
     guestInfo: null,
     selectedBoard: {},
-    onlineMembers: [],
     rooms: [
       {
         name: "City Furniture",

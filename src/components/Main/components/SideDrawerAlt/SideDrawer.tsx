@@ -45,16 +45,18 @@ export function SideDrawer({
             {navOptions.map((i: any, idx: any) => {
               return (
                 <li
-                  key={i.name}
+                  key={i.key}
                   className={currentSection === i.key ? "active" : ""}
                   onClick={() => {
                     setIsOpen(false);
                     navigate(i.path, { replace: false });
-                    const key: string = i.key;
+                    // const key: string = i.key;
                   }}
                 >
-                  {i.name}
-                  {i.img && <img src={i.img} width={40} height={40} />}
+                  {i.name}&nbsp;
+                  {i.img && (
+                    <img alt="chain logo" src={i.img} width={40} height={40} />
+                  )}
                 </li>
               );
             })}
