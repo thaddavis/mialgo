@@ -8,6 +8,8 @@ import { accountInformation } from "../../services/accountInformation";
 import { getTransactions } from "../../services/getTransactions";
 import { getPendingTransactions } from "../../services/getPendingTransactions";
 
+import { useNavigate } from "react-router-dom";
+
 export default function Main() {
   useEffect(() => {
     // console.log("___ _@@@_ ___", process.env.REACT_APP_PURE_STAKE_API_KEY);
@@ -23,15 +25,15 @@ export default function Main() {
         getTransactions();
         // ^^^ ^^^ ^^^
 
-        toast.success("🦄 Wow so easy!", {
-          position: "top-right",
-          autoClose: 5000,
-          hideProgressBar: false,
-          closeOnClick: true,
-          pauseOnHover: true,
-          draggable: true,
-          progress: undefined,
-        });
+        // toast.success("🦄 Wow so easy!", {
+        //   position: "top-right",
+        //   autoClose: 5000,
+        //   hideProgressBar: false,
+        //   closeOnClick: true,
+        //   pauseOnHover: true,
+        //   draggable: true,
+        //   progress: undefined,
+        // });
       } catch (e) {
         toast.error(`${e.toString()}`, {
           position: "top-right",

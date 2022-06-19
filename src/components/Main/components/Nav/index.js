@@ -3,6 +3,8 @@ import * as React from "react";
 import { IoLogOutOutline } from "react-icons/io5";
 import { AiOutlineHome } from "react-icons/ai";
 
+import { useNavigate } from "react-router-dom";
+
 import {
   Toolbar,
   Navigation,
@@ -17,6 +19,8 @@ import {
 import DrawerToggleButton from "../SideDrawer/DrawerToggleButton";
 
 export function Nav(props) {
+  let navigate = useNavigate();
+
   const { onClick, onEnterChat } = props;
 
   return (
@@ -39,7 +43,12 @@ export function Nav(props) {
                   onEnterChat(null);
                 }}
               >
-                <IoLogOutOutline />
+                <IoLogOutOutline
+                  onClick={() => {
+                    // console.log("asdf");
+                    navigate("/");
+                  }}
+                />
               </Links>
             </ListItem>
           </Items>

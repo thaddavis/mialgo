@@ -18,7 +18,6 @@ export const Navigation = styled.nav`
   display: flex;
   align-items: center;
   padding: 0 1rem;
-  // background-color: #01bf71;
   background: linear-gradient(
     108deg,
     rgba(189, 75, 144, 1) 0%,

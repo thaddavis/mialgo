@@ -50,7 +50,7 @@ const CollectChatGuestInfo = (props) => {
     try {
       handleSubmitCallback(data);
 
-      ToastHelper.success("You are being connected to CMD");
+      ToastHelper.success("Welcome to Mialgo.io");
     } catch (e) {
       ToastHelper.error(`${e.toString()}`);
     }
