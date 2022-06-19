@@ -20,6 +20,13 @@ export const Opportunities: {
   },
 
   {
+    name: "City Furniture",
+    description: "",
+    link: "https://jobs.cityfurniture.com/",
+    image: CityFurniture,
+  },
+
+  {
     name: "HireVibes",
     description: "",
     link: "https://www.hirevibes.io/",
@@ -38,13 +45,6 @@ export const Opportunities: {
     description: "",
     link: "https://www.hiro.so/careers",
     image: HiroLogo,
-  },
-
-  {
-    name: "City Furniture",
-    description: "",
-    link: "https://jobs.cityfurniture.com/",
-    image: CityFurniture,
   },
 
   {

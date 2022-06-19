@@ -27,7 +27,6 @@ const Container = styled.div`
   align-items: center;
   justify-content: center;
   height: 100vh;
-  // background-color: #263238;
   background-color: white;
 `;
 

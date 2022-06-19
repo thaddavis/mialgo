@@ -1,7 +1,5 @@
 import React, { useEffect } from "react";
 import useAlgoState from "../../useAlgoState";
-import CollectChatGuestInfo from "../../../Forms/CollectChatGuestInfo";
-import ChatRoom from "../ChatRoom";
 import { Nav } from "../Nav";
 import { SideDrawer } from "../SideDrawerAlt/SideDrawer";
 import { Backdrop } from "../Backdrop";
@@ -30,13 +28,6 @@ export default function MainUI(props) {
     //   onEnterChat(null);
     // }
   }, []);
-
-  const chatroomData =
-    (rooms &&
-      rooms.find((u) => {
-        return u.roomID === (selectedChatroom && selectedChatroom.roomID);
-      })) ||
-    null;
 
   return (
     <>
